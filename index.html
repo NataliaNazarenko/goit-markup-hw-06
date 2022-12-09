@@ -353,7 +353,6 @@
             </li>
           </ul>
         </div>
-        
       </section>
     </main>
 
@@ -371,46 +370,95 @@
         <div class="footer-socials">
           <h2 class="title-socials">приєднуйтесь</h2>
           <ul class="list-socials list">
-                  <li class="socials-item">
-                    <a href="" class="socials-link">
-                      <svg class="socials-icon">
-                        <use href="./images/icons.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="socials-item">
-                    <a href="" class="socials-link">
-                      <svg class="socials-icon">
-                        <use href="./images/icons.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="socials-item">
-                    <a href="" class="socials-link">
-                      <svg class="socials-icon">
-                        <use href="./images/icons.svg#icon-facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="socials-item">
-                    <a href="" class="socials-link">
-                      <svg class="socials-icon">
-                        <use href="./images/icons.svg#icon-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-      </div>
-    </footer>
-    
-    <div class="backdrop is-hidden" data-modal>
-          <div class="modal">
-            <button type="button" class="btn-close-modal" data-modal-close>
-              <svg class="icon-logo-modal">
-                  <use href="./images/icons.svg#icon-close-black"></use>
+            <li class="socials-item">
+              <a href="" class="socials-link">
+                <svg class="socials-icon">
+                  <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
+              </a>
+            </li>
+            <li class="socials-item">
+              <a href="" class="socials-link">
+                <svg class="socials-icon">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials-item">
+              <a href="" class="socials-link">
+                <svg class="socials-icon">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials-item">
+              <a href="" class="socials-link">
+                <svg class="socials-icon">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-forma">
+          <h2 class="footer-forma-title">Підпишіться на розсилку</h2>
+          <div class="footer-field">
+            <label for="email"></label>
+            <input class="email" name="tel" id="email" placeholder="E-mail" />
+            <button type="submit" class="footer-forma-btn">
+              <span>Підписатися</span>
+              <svg class="icon-icon-send">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
             </button>
           </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="btn-close-modal" data-modal-close>
+          <svg class="icon-logo-modal">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+        <form class="form">
+          <h2 class="form-title">Залиште свої дані, ми вам передзвонимо</h2>
+          <div class="form-field">
+            <label for="name">Ім'я</label>
+            <input class="text" name="name" id="name" />
+            <svg class="form-icon">
+              <use href="./images/icons.svg#icon-person"></use>
+            </svg>
+          </div>
+          <div class="form-field">
+            <label for="tel">Телефон</label>
+            <input class="text" name="tel" id="tel" />
+            <svg class="form-icon">
+              <use href="./images/icons.svg#icon-phone"></use>
+            </svg>
+          </div>
+          <div class="form-field">
+            <label for="email">Пошта</label>
+            <input class="email" name="tel" id="email" autocomplete="off" />
+            <svg class="form-icon">
+              <use href="./images/icons.svg#icon-email"></use>
+            </svg>
+          </div>
+          <div class="form-textarea">
+            <label for="comment">Коментар</label>
+            <textarea name="comment" id="comment" rows="8" placeholder="Введіть текст"></textarea>
+          </div>
+
+          <input type="checkbox" name="adoption" value="adoption" id="adoption" />
+          <label for="adoption"
+            >Погоджуюся з розсилкою та приймаю
+            <a href="">Умови договору</a>
+          </label>
+          <button type="submit">Відправити</button>
+        </form>
+      </div>
     </div>
     <script src="./js/modal.js"></script>
   </body>
